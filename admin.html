@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangalore Institute of Technology - Complaint Management</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="path_to_profile_image.jpg" alt="Profile Picture">
+            <h2>Ayush Raj</h2>
+            <h3>Head of Complaint Department</h3>
+            <nav>
+                <a href="#" class="active">New Complaint</a>
+                <a href="#">Under Review</a>
+                <a href="#">Completed Complaint</a>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>BANGALORE INSTITUTE OF TECHNOLOGY</h1>
+            <h2>Technology For Prosperity</h2>
+            <div class="complaint-card">
+                <h3>Frequent Power Outages in the Student Dormitories Affecting Study and Daily Activities</h3>
+                <p>Sent By: Anonymous</p>
+                <p>Created: 05 June 2024</p>
+                <p>
+                    As a resident of the student dormitories at XYZ College, I am experiencing frequent power outages that significantly disrupt my daily routine and academic activities. These outages occur multiple times a week, often lasting for several hours. The lack of consistent electricity makes it challenging to complete assignments, study for exams, and even perform basic tasks such as charging electronic devices. Additionally, it raises safety concerns, especially during the evening and nighttime. I urge the administration to investigate and address this issue promptly, ensuring a reliable power supply to support students' academic success and well-being.
+                </p>
+                <select id="department-select">
+                    <option>Select Department</option>
+                    <!-- Add department options here -->
+                </select>
+                <select id="individual-select">
+                    <option>Assign to Individual</option>
+                    <!-- Add individual options here -->
+                </select>
+                <div class="button-container">
+                    <button id="close-button">Close</button>
+                    <button id="assign-button">Assign to</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
