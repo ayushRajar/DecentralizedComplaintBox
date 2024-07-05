@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecntraSpeak Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup-page.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="wordmark">DecntraSpeak</div>
+            <h1>Submit Your Complaint Easily!</h1>
+            <p class="description">Easily Submit Your Complaint to Local, State, and Central Authorities with Just One Click. We Ensure Your Issue is Addressed Until It's Resolved.</p>
+            <div class="buttons">
+                <button class="login-btn active" id="user-login">User Log in</button>
+                <button class="login-btn" id="admin-login">Admin Log in</button>
+            </div>
+            <form id="login-form">
+                <label for="email">Email or Phone *</label>
+                <input type="text" id="email" name="email" placeholder="e.g: thisisashish@shah.com" required>
+                <label for="password">Password *</label>
+                <input type="password" id="password" name="password" placeholder="It must contain 8 characters" required>
+                <a href="#" class="forgot-password">Forget password?</a>
+                <button type="submit" class="create-account-btn">Create Account</button>
+                <p>Don't have an account? <a href="#">Sign up here</a></p>
+            </form>
+        </div>
+        <div class="image-container">
+            <img src="mainimage.jpg" alt="Elderly couple using a tablet">
+        </div>
+    </div>
+    <script src="signup-page.js"></script>
+</body>
+</html>
