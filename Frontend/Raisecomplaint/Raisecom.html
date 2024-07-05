@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Dashboard</title>
+    <link rel="stylesheet" href="raise.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture">
+                <h2>Ashish Shah</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">User Dashboard</a></li>
+                    <li><a href="#" class="active">Raise Complaint</a></li>
+                    <li><a href="#">Pending Complaint</a></li>
+                    <li><a href="#">Completed Complaint</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <form id="complaintForm">
+                <div class="form-group">
+                    <label for="complaintTitle">Complaint title</label>
+                    <input type="text" id="complaintTitle" name="complaintTitle" placeholder="e.g. Issue with Library Wi-Fi Connectivity" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="e.g. As a student at BIT College, I rely heavily on the library's Wi-Fi for completing my assignments and accessing online resources. However, for the past two weeks, the Wi-Fi connectivity in the library has been extremely unreliable. The connection drops frequently, and the speed is often too slow to load essential websites and documents. This issue has significantly impacted my ability to study and complete my coursework on time. I kindly request that the IT department investigates and resolves this problem as soon as possible to ensure a stable and fast internet connection for all students using the library." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="to">To</label>
+                    <input type="text" id="to" name="to" value="Bangalore Institute of Technology" readonly>
+                </div>
+                <button type="submit">Submit Complaint</button>
+            </form>
+        </div>
+    </div>
+    <script src="raise.js"></script>
+</body>
+</html>
