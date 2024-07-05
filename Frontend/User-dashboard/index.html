@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="header">
+                <span class="workmark">DcentraSpeak</span>
+                <span class="logout-icon">🔗</span>
+            </div>
+            <div class="profile">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
+                <h2 class="name">Ashish Shah</h2>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" class="menu-option active" data-section="dashboard"><i class="icon">✏️</i> User Dashboard</a></li>
+                    <li><a href="#" class="menu-option" data-section="raise-complaint"><i class="icon">📚</i> Raise Complaint</a></li>
+                    <li><a href="#" class="menu-option" data-section="pending-complaint"><i class="icon">⚠️</i> Pending Complaint</a></li>
+                    <li><a href="#" class="menu-option" data-section="completed-complaint"><i class="icon">✔️</i> Completed Complaint</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content" id="main-content">
+            <div class="profile-edit">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-edit-picture">
+                <span class="username">@thisisashishshah</span>
+                <a href="../pfo" id="edit-profile-picture" class="edit-profile-link">Edit profile</a>
+            </div>
+            <form class="edit-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" value="Ashish Shah">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" value="thisisashishshah@gmail.com">
+                
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" value="7987465729">
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" value="**********">
+                
+                <button type="submit">Edit info</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

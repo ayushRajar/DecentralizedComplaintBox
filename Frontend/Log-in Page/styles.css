@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container, .image-container {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wordmark {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 96px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: -2%;
+}
+
+.description {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+    letter-spacing: -2%;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: -2%;
+}
+
+.mandatory {
+    color: red;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #0000ee;
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.login-link {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 5px 5px 0;
+}
