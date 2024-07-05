@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.sidebar h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.sidebar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.sidebar nav a.active, .sidebar nav a:hover {
+    background-color: #555;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.complaint-card {
+    background-color: #e0f7fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.complaint-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.complaint-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.details-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #555;
+}
